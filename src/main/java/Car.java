@@ -10,7 +10,7 @@
         private String make;
         private String model;
         private int year;
-        private int price;
+        private double price;
         
         
         /**
@@ -18,9 +18,9 @@
          * @param make String variable for the car manufactorer
          * @param model String variable for the car model
          * @param year integer variable for the year of car
-         * @param price integer variable for the car price
+         * @param price double variable for the car price
          */
-        public Car(String make, String model, int year, int price){
+        public Car(String make, String model, int year, double price){
             this.make = make;
             this.model = model;
             this.year = year;
@@ -47,7 +47,7 @@
          * Getter for the year of the car
          * @return returns the year
          */
-        public double getYear(){
+        public int getYear(){
             return this.year;
         }
 
@@ -86,9 +86,9 @@
 
         /**
          * Sets the year of car to the provided value
-         * @param price int that will replace the value of year
+         * @param price double that will replace the value of year
          */
-        public void setPrice(int price){
+        public void setPrice(double price){
             this.price = price;
         }
         
