@@ -50,7 +50,7 @@ public int getWeight(){
 
 /**
  * Sets the name of the dog to the provided value
- * @param breed String that will replace the value of name
+ * @param name String that will replace the value of name
  */
 public void setName(String name){
     this.name = name;

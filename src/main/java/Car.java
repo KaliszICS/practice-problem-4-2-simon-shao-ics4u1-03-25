@@ -20,58 +20,76 @@
          * @param year integer variable for the year of car
          * @param price integer variable for the car price
          */
-        public Dog(String make, String model, int year, int price){
-            this.name = name;
-            this.breed = breed;
-            this.weight = weight;
+        public Car(String make, String model, int year, int price){
+            this.make = make;
+            this.model = model;
+            this.year = year;
+            this.price = price;
         }
         
         /**
-         * Getter for the name of the dog
-         * @return returns the name of the dog
+         * Getter for the manufactorer of the car
+         * @return returns the maker
          */
-        public String getName(){
-            return this.name;
+        public String getMake(){
+            return this.make;
         }
         
         /**
-         * Getter for the breed of the dog
-         * @return returns the breed of the dog
+         * Getter for the model of car
+         * @return returns the model
          */
-        public String getBreed(){
-            return this.breed;
+        public String getModel(){
+            return this.model;
         }
         
         /**
-         * Getter for the weight of the dog
-         * @return returns the weight of the dog
+         * Getter for the year of the car
+         * @return returns the year
          */
-        public double getWeight(){
-            return this.weight;
+        public double getYear(){
+            return this.year;
+        }
+
+        /**
+         * Getter for the price of the car
+         * @return returns the price
+         */
+        public double getPrice(){
+            return this.price;
         }
         
         /**
-         * Sets the name of the dog to the provided value
-         * @param breed String that will replace the value of name
+         * Sets the maker of car to the provided value
+         * @param make String that will replace the value of maker
          */
-        public void setName(String name){
-            this.name = name;
+        public void setMake(String make){
+            this.make = make;
         }
         
         /**
-         * Sets the breed of the dog to the provided value
-         * @param breed String that will replace the value of breed
+         * Sets the model of car to the provided value
+         * @param model String that will replace the model variable
          */
-        public void setBreed(String breed){
-            this.breed = breed;
+        public void setModel(String model){
+            this.model = model;
         }
         
         /**
-         * Sets the weight of the dog to the provided value
-         * @param weight dobule that will replace the value of weight
+         * Sets the year of car to the provided value
+         * @param year int that will replace the value of year
          */
-        public void setWeight(double weight){
-            this.weight = weight;
+        public void setYear(int year){
+            this.year = year;
+        }
+
+
+        /**
+         * Sets the year of car to the provided value
+         * @param price int that will replace the value of year
+         */
+        public void setPrice(int price){
+            this.price = price;
         }
         
         }
