@@ -14,7 +14,7 @@
         
         
         /**
-         * Constructor to initialize all instance variables;
+         * initialize all instance variables;
          * @param make String variable for the car manufactorer
          * @param model String variable for the car model
          * @param year integer variable for the year of car
@@ -28,7 +28,7 @@
         }
         
         /**
-         * Getter for the manufactorer of the car
+         * Gets the manufactorer of the car
          * @return returns the maker
          */
         public String getMake(){
@@ -36,7 +36,7 @@
         }
         
         /**
-         * Getter for the model of car
+         * Gets the model of car
          * @return returns the model
          */
         public String getModel(){
@@ -44,7 +44,7 @@
         }
         
         /**
-         * Getter for the year of the car
+         * Gets the year of the car
          * @return returns the year
          */
         public int getYear(){
@@ -52,7 +52,7 @@
         }
 
         /**
-         * Getter for the price of the car
+         * Gets the price of the car
          * @return returns the price
          */
         public double getPrice(){

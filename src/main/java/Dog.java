@@ -13,7 +13,7 @@ private int weight;
 
 
 /**
- * Constructor to initialize dog name, breed, weight to given arguments;
+ * initialize dog name, breed, weight to given arguments;
  * @param name String variable for the name of the dog
  * @param breed String variable for the breed of the dog
  * @param weight int variable for the weight of the dog
@@ -25,7 +25,7 @@ public Dog(String name, String breed, int weight){
 }
 
 /**
- * Getter for the name of the dog
+ * Gets the name of the dog
  * @return returns the name of the dog
  */
 public String getName(){
@@ -33,7 +33,7 @@ public String getName(){
 }
 
 /**
- * Getter for the breed of the dog
+ * Gets the breed of the dog
  * @return returns the breed of the dog
  */
 public String getBreed(){
@@ -41,7 +41,7 @@ public String getBreed(){
 }
 
 /**
- * Getter for the weight of the dog
+ * Gets the weight of the dog
  * @return returns the weight of the dog
  */
 public int getWeight(){
