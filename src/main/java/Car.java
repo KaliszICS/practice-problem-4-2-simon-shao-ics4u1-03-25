@@ -1,5 +1,5 @@
 /** 
-    * A object that contains informations of a car
+    * An object that contains informations of a car
     * @author Simon Shao
     * @version 1.0.0
     */
